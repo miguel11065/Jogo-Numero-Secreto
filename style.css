@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --font-family: "Press Start 2P", system-ui;
+    --bg-color: #6527BE;
+    --primary-color: #A7EDE7;
+}
+
+/* 45CFDD
+A7EDE7
+9681EB */
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 70px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 3.5em;
+    padding: 20px 0px 10px 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    font-family: var(--font-family);
+    background: var(--primary-color);
+    color: var(--bg-color);
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 40px;
+}
